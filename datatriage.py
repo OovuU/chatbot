@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 import time
 
+#le 2006 a des problems avec la compression 
 timeframe = '2017-11'
 sql_transaction = []
 start_row = 0
@@ -93,7 +94,7 @@ if __name__ == '__main__':
     row_counter = 0
     paired_rows = 0
 
-    #with open('J:/chatdata/reddit_data/{}/RC_{}'.format(timeframe.split('-')[0],timeframe), buffering=1000) as f:
+    
     with open('E:/BOT/data/RC_2017-11/RC_2017-11', buffering=1000) as f: # encoding="utf8" E:/BOT/data/RA_2018-09 E:/BOT/data/RC_2017-11/RC_2017-11
         for row in f:
             #print(row)
