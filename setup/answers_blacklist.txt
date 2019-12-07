@@ -1,0 +1,30 @@
+# Any response matching any of that sentenced will be marked as blacklisted
+# Do not place <unk> here - it's blacklisted by default
+
+'$
+^\[ \]$
+(?i) I ' m$
+(?i) I$
+( |^)You$
+(?i)( |^)don$
+(?i)your$
+downvoted
+penis
+dick
+faggot
+pussy
+cunt
+fucker
+motherfucker
+bitch
+vagina
+fuck
+
+
+
+
+
+
+
+
+
